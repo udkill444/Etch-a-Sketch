@@ -1,0 +1,60 @@
+body {
+    background-color: #ededed;
+}
+
+.pixel {
+
+    flex-wrap: wrap;
+    border: solid;
+    border-width: 0px;
+    height: 0.5vh;
+    width: 0.5vh;
+
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color: #ededed;
+    height: 100vh;
+}
+
+.header {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+}
+
+.settings {
+    margin-right: 20px;
+}
+
+.sketch {
+    display: flex;
+    flex-flow: wrap;
+    border: solid;
+    border-width: 2px;
+    width: 500px;
+    height: 500px;
+    background-color: white;
+}
+
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #ededed;
+    color: black;
+    text-align: center;
+}
